@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="six_slices">Round Pizza 6 slices - serves 3 people ($5.50)</string>
+    <string name="eight_slices">Round Pizza 8 slices - serves 4 people ($7.99)</string>
+    <string name="ten_slices">Round Pizza 10 slices - serves 5 people ($9.50)</string>
+    <string name="twelve_slices">Round Pizza 12 slices - serves 6 people ($11.38)</string>
+    <string name="size_of_the_pizza">Size of the Pizza</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="submit">Submit</string>
+    <string name="contact_name">Name</string>
+    <string name="address">Address</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="extra_cheese_5">Extra Cheese($5)</string>
+    <string name="toppings">Toppings</string>
+    <string name="include_delivery_5">Include Delivery($5)</string>
+    <string name="special_instructions">Special Instructions</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+</resources>

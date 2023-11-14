@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckoutActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="20dp"
+        android:textAlignment="viewStart"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/pizzaSizeTitle"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="@string/size_of_the_pizza"-->
+            <!--                android:textAlignment="viewStart"-->
+            <!--                android:textSize="24sp" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/pizzaSize"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:ems="10"-->
+            <!--                android:text="@string/lorem_ipsum" />-->
+
+            <!--            <View-->
+            <!--                android:id="@+id/dividerH1"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="1dp"-->
+            <!--                android:background="?android:attr/listDivider" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/toppingsTitle"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="@string/toppings"-->
+            <!--                android:textAlignment="viewStart"-->
+            <!--                android:textSize="24sp" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/toppings"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:ems="10"-->
+            <!--                android:text="@string/lorem_ipsum" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/xtraCheese"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:ems="10"-->
+            <!--                android:text="@string/lorem_ipsum" />-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/delivery"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:ems="10"-->
+            <!--                android:text="@string/lorem_ipsum" />-->
+
+
+            <TextView
+                android:id="@+id/contactDetailsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_details"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/contact_name" />
+
+            <TextView
+                android:id="@+id/postalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_address" />
+
+            <TextView
+                android:id="@+id/specialInstructionsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Special Instructions"
+                android:textAlignment="viewStart"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/specialInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:text="@string/lorem_ipsum"
+                android:textAlignment="textEnd" />
+
+            <View
+                android:id="@+id/dividerH2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <View
+                android:id="@+id/dividerH3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total: "
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/totalCost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lorem_ipsum"
+                    android:textAlignment="viewStart"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
